@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D090FF31DFA9E76008A8A79 /* animationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D090FF21DFA9E76008A8A79 /* animationButton.swift */; };
+		2D090FF51DFA9EE1008A8A79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D090FF41DFA9EE1008A8A79 /* HomeViewController.swift */; };
+		2D090FFE1DFAA680008A8A79 /* LaunchsScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D090FFD1DFAA680008A8A79 /* LaunchsScreen.xib */; };
+		2D0910001DFAC334008A8A79 /* Boku2-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D090FFF1DFAC334008A8A79 /* Boku2-Bold.otf */; };
+		2D09100E1DFAC3EF008A8A79 /* heart_tab@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910031DFAC3EF008A8A79 /* heart_tab@2x.png.png */; };
+		2D0910101DFAC3EF008A8A79 /* icon@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910051DFAC3EF008A8A79 /* icon@2x.png.png */; };
+		2D0910121DFAC3EF008A8A79 /* note_tab@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910071DFAC3EF008A8A79 /* note_tab@2x.png.png */; };
+		2D0910131DFAC3EF008A8A79 /* Pin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910081DFAC3EF008A8A79 /* Pin_icon.png */; };
+		2D0910141DFAC3EF008A8A79 /* PoinGetView.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910091DFAC3EF008A8A79 /* PoinGetView.png */; };
+		2D0910151DFAC3EF008A8A79 /* PoinGetView@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D09100A1DFAC3EF008A8A79 /* PoinGetView@2x.png.png */; };
+		2D0910161DFAC3EF008A8A79 /* twitter_logo_yellow01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D09100B1DFAC3EF008A8A79 /* twitter_logo_yellow01.png */; };
+		2D0910171DFAC3EF008A8A79 /* twitter_logo_yellow01@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D09100C1DFAC3EF008A8A79 /* twitter_logo_yellow01@2x.png.png */; };
+		2D0910191DFAD931008A8A79 /* kyunto_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0910181DFAD931008A8A79 /* kyunto_button.png */; };
+		2D0C918F1DFAFF6500A9DD93 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C918E1DFAFF6500A9DD93 /* logo.png */; };
+		2D29DEDA1DF470CD00326C20 /* memoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29DED81DF470CD00326C20 /* memoTableViewCell.swift */; };
+		2D29DEDB1DF470CD00326C20 /* memoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D29DED91DF470CD00326C20 /* memoTableViewCell.xib */; };
+		2DE704841DFB202E00CFDBBE /* heart_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE704831DFB202E00CFDBBE /* heart_tab.png */; };
+		2DE704861DFB203600CFDBBE /* note_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE704851DFB203600CFDBBE /* note_tab.png */; };
+		2DE704881DFB20A700CFDBBE /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE704871DFB20A700CFDBBE /* MyTableViewController.swift */; };
+		2DE7048C1DFB230500CFDBBE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7048B1DFB230500CFDBBE /* icon.png */; };
+		58A578CB1DFB8A57006D4BF7 /* Kyunto_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578C81DFB8A57006D4BF7 /* Kyunto_title.png */; };
+		58A578CC1DFB8A57006D4BF7 /* Kyunto_title02.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578C91DFB8A57006D4BF7 /* Kyunto_title02.png */; };
+		58A578CD1DFB8A57006D4BF7 /* Kyunto_title03.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578CA1DFB8A57006D4BF7 /* Kyunto_title03.png */; };
+		58A578CF1DFB8FF3006D4BF7 /* kyunto_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578CE1DFB8FF3006D4BF7 /* kyunto_save.png */; };
+		844436631DF29086001DEA32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436621DF29086001DEA32 /* AppDelegate.swift */; };
+		844436651DF29086001DEA32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436641DF29086001DEA32 /* ViewController.swift */; };
+		844436681DF29086001DEA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844436661DF29086001DEA32 /* Main.storyboard */; };
+		8444366A1DF29087001DEA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844436691DF29087001DEA32 /* Assets.xcassets */; };
+		8444366D1DF29087001DEA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8444366B1DF29087001DEA32 /* LaunchScreen.storyboard */; };
+		844436781DF29087001DEA32 /* KyuntoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436771DF29087001DEA32 /* KyuntoAppTests.swift */; };
+		844436831DF29087001DEA32 /* KyuntoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436821DF29087001DEA32 /* KyuntoAppUITests.swift */; };
+		844436961DF29CB8001DEA32 /* memoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436951DF29CB8001DEA32 /* memoViewController.swift */; };
+		844436981DF29EE8001DEA32 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844436971DF29EE8001DEA32 /* addViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844436741DF29087001DEA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844436571DF29086001DEA32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8444365E1DF29086001DEA32;
+			remoteInfo = KyuntoApp;
+		};
+		8444367F1DF29087001DEA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844436571DF29086001DEA32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8444365E1DF29086001DEA32;
+			remoteInfo = KyuntoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D090FF21DFA9E76008A8A79 /* animationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationButton.swift; sourceTree = "<group>"; };
+		2D090FF41DFA9EE1008A8A79 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D090FFD1DFAA680008A8A79 /* LaunchsScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchsScreen.xib; sourceTree = "<group>"; };
+		2D090FFF1DFAC334008A8A79 /* Boku2-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boku2-Bold.otf"; sourceTree = "<group>"; };
+		2D0910031DFAC3EF008A8A79 /* heart_tab@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart_tab@2x.png.png"; sourceTree = "<group>"; };
+		2D0910051DFAC3EF008A8A79 /* icon@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png.png"; sourceTree = "<group>"; };
+		2D0910071DFAC3EF008A8A79 /* note_tab@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note_tab@2x.png.png"; sourceTree = "<group>"; };
+		2D0910081DFAC3EF008A8A79 /* Pin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pin_icon.png; sourceTree = "<group>"; };
+		2D0910091DFAC3EF008A8A79 /* PoinGetView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PoinGetView.png; sourceTree = "<group>"; };
+		2D09100A1DFAC3EF008A8A79 /* PoinGetView@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PoinGetView@2x.png.png"; sourceTree = "<group>"; };
+		2D09100B1DFAC3EF008A8A79 /* twitter_logo_yellow01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo_yellow01.png; sourceTree = "<group>"; };
+		2D09100C1DFAC3EF008A8A79 /* twitter_logo_yellow01@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_logo_yellow01@2x.png.png"; sourceTree = "<group>"; };
+		2D0910181DFAD931008A8A79 /* kyunto_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyunto_button.png; sourceTree = "<group>"; };
+		2D0C918E1DFAFF6500A9DD93 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2D29DED81DF470CD00326C20 /* memoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoTableViewCell.swift; sourceTree = "<group>"; };
+		2D29DED91DF470CD00326C20 /* memoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memoTableViewCell.xib; sourceTree = "<group>"; };
+		2DE704831DFB202E00CFDBBE /* heart_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_tab.png; sourceTree = "<group>"; };
+		2DE704851DFB203600CFDBBE /* note_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_tab.png; sourceTree = "<group>"; };
+		2DE704871DFB20A700CFDBBE /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		2DE7048B1DFB230500CFDBBE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		58A578C81DFB8A57006D4BF7 /* Kyunto_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title.png; sourceTree = "<group>"; };
+		58A578C91DFB8A57006D4BF7 /* Kyunto_title02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title02.png; sourceTree = "<group>"; };
+		58A578CA1DFB8A57006D4BF7 /* Kyunto_title03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title03.png; sourceTree = "<group>"; };
+		58A578CE1DFB8FF3006D4BF7 /* kyunto_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyunto_save.png; sourceTree = "<group>"; };
+		8444365F1DF29086001DEA32 /* KyuntoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyuntoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844436621DF29086001DEA32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844436641DF29086001DEA32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844436671DF29086001DEA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844436691DF29087001DEA32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8444366C1DF29087001DEA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8444366E1DF29087001DEA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844436731DF29087001DEA32 /* KyuntoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyuntoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844436771DF29087001DEA32 /* KyuntoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyuntoAppTests.swift; sourceTree = "<group>"; };
+		844436791DF29087001DEA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8444367E1DF29087001DEA32 /* KyuntoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyuntoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844436821DF29087001DEA32 /* KyuntoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyuntoAppUITests.swift; sourceTree = "<group>"; };
+		844436841DF29087001DEA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844436951DF29CB8001DEA32 /* memoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoViewController.swift; sourceTree = "<group>"; };
+		844436971DF29EE8001DEA32 /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8444365C1DF29086001DEA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844436701DF29087001DEA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8444367B1DF29087001DEA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D090FF61DFAA0AF008A8A79 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D090FF41DFA9EE1008A8A79 /* HomeViewController.swift */,
+				2D090FF21DFA9E76008A8A79 /* animationButton.swift */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		2D0910011DFAC3EF008A8A79 /* KyuntoResources */ = {
+			isa = PBXGroup;
+			children = (
+				2DE704831DFB202E00CFDBBE /* heart_tab.png */,
+				2D0910181DFAD931008A8A79 /* kyunto_button.png */,
+				2D0910031DFAC3EF008A8A79 /* heart_tab@2x.png.png */,
+				2DE7048B1DFB230500CFDBBE /* icon.png */,
+				2D0910051DFAC3EF008A8A79 /* icon@2x.png.png */,
+				2DE704851DFB203600CFDBBE /* note_tab.png */,
+				2D0910071DFAC3EF008A8A79 /* note_tab@2x.png.png */,
+				2D0910081DFAC3EF008A8A79 /* Pin_icon.png */,
+				2D0910091DFAC3EF008A8A79 /* PoinGetView.png */,
+				58A578C81DFB8A57006D4BF7 /* Kyunto_title.png */,
+				58A578C91DFB8A57006D4BF7 /* Kyunto_title02.png */,
+				58A578CE1DFB8FF3006D4BF7 /* kyunto_save.png */,
+				58A578CA1DFB8A57006D4BF7 /* Kyunto_title03.png */,
+				2D09100A1DFAC3EF008A8A79 /* PoinGetView@2x.png.png */,
+				2D09100B1DFAC3EF008A8A79 /* twitter_logo_yellow01.png */,
+				2D09100C1DFAC3EF008A8A79 /* twitter_logo_yellow01@2x.png.png */,
+			);
+			name = KyuntoResources;
+			path = TableViewController/KyuntoResources;
+			sourceTree = "<group>";
+		};
+		844436561DF29086001DEA32 = {
+			isa = PBXGroup;
+			children = (
+				844436611DF29086001DEA32 /* KyuntoApp */,
+				844436761DF29087001DEA32 /* KyuntoAppTests */,
+				844436811DF29087001DEA32 /* KyuntoAppUITests */,
+				844436601DF29086001DEA32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844436601DF29086001DEA32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8444365F1DF29086001DEA32 /* KyuntoApp.app */,
+				844436731DF29087001DEA32 /* KyuntoAppTests.xctest */,
+				8444367E1DF29087001DEA32 /* KyuntoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844436611DF29086001DEA32 /* KyuntoApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D0910011DFAC3EF008A8A79 /* KyuntoResources */,
+				2D090FF61DFAA0AF008A8A79 /* HomeViewController */,
+				844436921DF29C59001DEA32 /* TableViewController */,
+				844436661DF29086001DEA32 /* Main.storyboard */,
+				844436621DF29086001DEA32 /* AppDelegate.swift */,
+				844436691DF29087001DEA32 /* Assets.xcassets */,
+				8444366B1DF29087001DEA32 /* LaunchScreen.storyboard */,
+				2D0C918E1DFAFF6500A9DD93 /* logo.png */,
+				8444366E1DF29087001DEA32 /* Info.plist */,
+				2D090FFD1DFAA680008A8A79 /* LaunchsScreen.xib */,
+				844436641DF29086001DEA32 /* ViewController.swift */,
+				2D090FFF1DFAC334008A8A79 /* Boku2-Bold.otf */,
+				2DE704871DFB20A700CFDBBE /* MyTableViewController.swift */,
+			);
+			path = KyuntoApp;
+			sourceTree = "<group>";
+		};
+		844436761DF29087001DEA32 /* KyuntoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				844436771DF29087001DEA32 /* KyuntoAppTests.swift */,
+				844436791DF29087001DEA32 /* Info.plist */,
+			);
+			path = KyuntoAppTests;
+			sourceTree = "<group>";
+		};
+		844436811DF29087001DEA32 /* KyuntoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844436821DF29087001DEA32 /* KyuntoAppUITests.swift */,
+				844436841DF29087001DEA32 /* Info.plist */,
+			);
+			path = KyuntoAppUITests;
+			sourceTree = "<group>";
+		};
+		844436921DF29C59001DEA32 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				844436951DF29CB8001DEA32 /* memoViewController.swift */,
+				844436971DF29EE8001DEA32 /* addViewController.swift */,
+				2D29DED81DF470CD00326C20 /* memoTableViewCell.swift */,
+				2D29DED91DF470CD00326C20 /* memoTableViewCell.xib */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8444365E1DF29086001DEA32 /* KyuntoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844436871DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoApp" */;
+			buildPhases = (
+				8444365B1DF29086001DEA32 /* Sources */,
+				8444365C1DF29086001DEA32 /* Frameworks */,
+				8444365D1DF29086001DEA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KyuntoApp;
+			productName = KyuntoApp;
+			productReference = 8444365F1DF29086001DEA32 /* KyuntoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844436721DF29087001DEA32 /* KyuntoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8444368A1DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoAppTests" */;
+			buildPhases = (
+				8444366F1DF29087001DEA32 /* Sources */,
+				844436701DF29087001DEA32 /* Frameworks */,
+				844436711DF29087001DEA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844436751DF29087001DEA32 /* PBXTargetDependency */,
+			);
+			name = KyuntoAppTests;
+			productName = KyuntoAppTests;
+			productReference = 844436731DF29087001DEA32 /* KyuntoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8444367D1DF29087001DEA32 /* KyuntoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8444368D1DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoAppUITests" */;
+			buildPhases = (
+				8444367A1DF29087001DEA32 /* Sources */,
+				8444367B1DF29087001DEA32 /* Frameworks */,
+				8444367C1DF29087001DEA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844436801DF29087001DEA32 /* PBXTargetDependency */,
+			);
+			name = KyuntoAppUITests;
+			productName = KyuntoAppUITests;
+			productReference = 8444367E1DF29087001DEA32 /* KyuntoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844436571DF29086001DEA32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "saki takada";
+				TargetAttributes = {
+					8444365E1DF29086001DEA32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2263GD5RWN;
+						ProvisioningStyle = Automatic;
+					};
+					844436721DF29087001DEA32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QXTM62538V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8444365E1DF29086001DEA32;
+					};
+					8444367D1DF29087001DEA32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QXTM62538V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8444365E1DF29086001DEA32;
+					};
+				};
+			};
+			buildConfigurationList = 8444365A1DF29086001DEA32 /* Build configuration list for PBXProject "KyuntoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844436561DF29086001DEA32;
+			productRefGroup = 844436601DF29086001DEA32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8444365E1DF29086001DEA32 /* KyuntoApp */,
+				844436721DF29087001DEA32 /* KyuntoAppTests */,
+				8444367D1DF29087001DEA32 /* KyuntoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8444365D1DF29086001DEA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0910191DFAD931008A8A79 /* kyunto_button.png in Resources */,
+				58A578CF1DFB8FF3006D4BF7 /* kyunto_save.png in Resources */,
+				2D0910001DFAC334008A8A79 /* Boku2-Bold.otf in Resources */,
+				2D09100E1DFAC3EF008A8A79 /* heart_tab@2x.png.png in Resources */,
+				8444366D1DF29087001DEA32 /* LaunchScreen.storyboard in Resources */,
+				2D0910101DFAC3EF008A8A79 /* icon@2x.png.png in Resources */,
+				58A578CC1DFB8A57006D4BF7 /* Kyunto_title02.png in Resources */,
+				2D0910121DFAC3EF008A8A79 /* note_tab@2x.png.png in Resources */,
+				2DE704841DFB202E00CFDBBE /* heart_tab.png in Resources */,
+				2D0910151DFAC3EF008A8A79 /* PoinGetView@2x.png.png in Resources */,
+				58A578CD1DFB8A57006D4BF7 /* Kyunto_title03.png in Resources */,
+				2D0910171DFAC3EF008A8A79 /* twitter_logo_yellow01@2x.png.png in Resources */,
+				2D0910161DFAC3EF008A8A79 /* twitter_logo_yellow01.png in Resources */,
+				2DE704861DFB203600CFDBBE /* note_tab.png in Resources */,
+				8444366A1DF29087001DEA32 /* Assets.xcassets in Resources */,
+				2DE7048C1DFB230500CFDBBE /* icon.png in Resources */,
+				2D0C918F1DFAFF6500A9DD93 /* logo.png in Resources */,
+				2D0910141DFAC3EF008A8A79 /* PoinGetView.png in Resources */,
+				2D0910131DFAC3EF008A8A79 /* Pin_icon.png in Resources */,
+				844436681DF29086001DEA32 /* Main.storyboard in Resources */,
+				2D090FFE1DFAA680008A8A79 /* LaunchsScreen.xib in Resources */,
+				58A578CB1DFB8A57006D4BF7 /* Kyunto_title.png in Resources */,
+				2D29DEDB1DF470CD00326C20 /* memoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844436711DF29087001DEA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8444367C1DF29087001DEA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8444365B1DF29086001DEA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D090FF31DFA9E76008A8A79 /* animationButton.swift in Sources */,
+				844436651DF29086001DEA32 /* ViewController.swift in Sources */,
+				844436961DF29CB8001DEA32 /* memoViewController.swift in Sources */,
+				2DE704881DFB20A700CFDBBE /* MyTableViewController.swift in Sources */,
+				844436981DF29EE8001DEA32 /* addViewController.swift in Sources */,
+				2D29DEDA1DF470CD00326C20 /* memoTableViewCell.swift in Sources */,
+				2D090FF51DFA9EE1008A8A79 /* HomeViewController.swift in Sources */,
+				844436631DF29086001DEA32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8444366F1DF29087001DEA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844436781DF29087001DEA32 /* KyuntoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8444367A1DF29087001DEA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844436831DF29087001DEA32 /* KyuntoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844436751DF29087001DEA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8444365E1DF29086001DEA32 /* KyuntoApp */;
+			targetProxy = 844436741DF29087001DEA32 /* PBXContainerItemProxy */;
+		};
+		844436801DF29087001DEA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8444365E1DF29086001DEA32 /* KyuntoApp */;
+			targetProxy = 8444367F1DF29087001DEA32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844436661DF29086001DEA32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844436671DF29086001DEA32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8444366B1DF29087001DEA32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8444366C1DF29087001DEA32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844436851DF29087001DEA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844436861DF29087001DEA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844436881DF29087001DEA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2263GD5RWN;
+				INFOPLIST_FILE = KyuntoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho123.KyuntoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		844436891DF29087001DEA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2263GD5RWN;
+				INFOPLIST_FILE = KyuntoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho123.KyuntoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8444368B1DF29087001DEA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QXTM62538V;
+				INFOPLIST_FILE = KyuntoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho.KyuntoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyuntoApp.app/KyuntoApp";
+			};
+			name = Debug;
+		};
+		8444368C1DF29087001DEA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QXTM62538V;
+				INFOPLIST_FILE = KyuntoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho.KyuntoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyuntoApp.app/KyuntoApp";
+			};
+			name = Release;
+		};
+		8444368E1DF29087001DEA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QXTM62538V;
+				INFOPLIST_FILE = KyuntoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho.KyuntoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KyuntoApp;
+			};
+			name = Debug;
+		};
+		8444368F1DF29087001DEA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QXTM62538V;
+				INFOPLIST_FILE = KyuntoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakincho.KyuntoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KyuntoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8444365A1DF29086001DEA32 /* Build configuration list for PBXProject "KyuntoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844436851DF29087001DEA32 /* Debug */,
+				844436861DF29087001DEA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844436871DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844436881DF29087001DEA32 /* Debug */,
+				844436891DF29087001DEA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8444368A1DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8444368B1DF29087001DEA32 /* Debug */,
+				8444368C1DF29087001DEA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8444368D1DF29087001DEA32 /* Build configuration list for PBXNativeTarget "KyuntoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8444368E1DF29087001DEA32 /* Debug */,
+				8444368F1DF29087001DEA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844436571DF29086001DEA32 /* Project object */;
+}
