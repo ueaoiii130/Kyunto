@@ -29,7 +29,7 @@ class memoViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         //memotableView.xibとの連携のnib
-        var nib = UINib(nibName: "memoTableViewCell", bundle: nil)
+        let nib = UINib(nibName: "memoTableViewCell", bundle: nil)
         table.register(nib, forCellReuseIdentifier: "cell")
         
         //table.dateSource = self
