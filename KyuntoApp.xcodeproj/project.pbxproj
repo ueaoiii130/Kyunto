@@ -27,6 +27,7 @@
 		2DE704861DFB203600CFDBBE /* note_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE704851DFB203600CFDBBE /* note_tab.png */; };
 		2DE704881DFB20A700CFDBBE /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE704871DFB20A700CFDBBE /* MyTableViewController.swift */; };
 		2DE7048C1DFB230500CFDBBE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7048B1DFB230500CFDBBE /* icon.png */; };
+		58285AD61E4F5460008EFC49 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58285AD51E4F5460008EFC49 /* icon.png */; };
 		58A578CB1DFB8A57006D4BF7 /* Kyunto_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578C81DFB8A57006D4BF7 /* Kyunto_title.png */; };
 		58A578CC1DFB8A57006D4BF7 /* Kyunto_title02.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578C91DFB8A57006D4BF7 /* Kyunto_title02.png */; };
 		58A578CD1DFB8A57006D4BF7 /* Kyunto_title03.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A578CA1DFB8A57006D4BF7 /* Kyunto_title03.png */; };
@@ -80,6 +81,7 @@
 		2DE704851DFB203600CFDBBE /* note_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_tab.png; sourceTree = "<group>"; };
 		2DE704871DFB20A700CFDBBE /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		2DE7048B1DFB230500CFDBBE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		58285AD51E4F5460008EFC49 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../icon.png; sourceTree = "<group>"; };
 		58A578C81DFB8A57006D4BF7 /* Kyunto_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title.png; sourceTree = "<group>"; };
 		58A578C91DFB8A57006D4BF7 /* Kyunto_title02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title02.png; sourceTree = "<group>"; };
 		58A578CA1DFB8A57006D4BF7 /* Kyunto_title03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyunto_title03.png; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		2D0910011DFAC3EF008A8A79 /* KyuntoResources */ = {
 			isa = PBXGroup;
 			children = (
+				58285AD51E4F5460008EFC49 /* icon.png */,
 				2DE704831DFB202E00CFDBBE /* heart_tab.png */,
 				2D0910181DFAD931008A8A79 /* kyunto_button.png */,
 				2D0910031DFAC3EF008A8A79 /* heart_tab@2x.png.png */,
@@ -291,7 +294,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "saki takada";
 				TargetAttributes = {
 					8444365E1DF29086001DEA32 = {
@@ -358,6 +361,7 @@
 				2D0910141DFAC3EF008A8A79 /* PoinGetView.png in Resources */,
 				2D0910131DFAC3EF008A8A79 /* Pin_icon.png in Resources */,
 				844436681DF29086001DEA32 /* Main.storyboard in Resources */,
+				58285AD61E4F5460008EFC49 /* icon.png in Resources */,
 				2D090FFE1DFAA680008A8A79 /* LaunchsScreen.xib in Resources */,
 				58A578CB1DFB8A57006D4BF7 /* Kyunto_title.png in Resources */,
 				2D29DEDB1DF470CD00326C20 /* memoTableViewCell.xib in Resources */,
@@ -465,6 +469,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -514,6 +519,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
