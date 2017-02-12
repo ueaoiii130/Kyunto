@@ -87,7 +87,7 @@ class HomeViewController: UIViewController {
         
         
         //遅延行為
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
             self.alertButton.isHidden = false
         }
         /*UIView.animateWithDuration(2.0,
