@@ -143,7 +143,7 @@ class addViewController: UIViewController, UITextViewDelegate {
 
     
     //MARK: キーボードが出ている状態で、キーボード以外をタップしたらキーボードを閉じる
-   override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+   func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         //非表示にする。
         if(addMemoTextView.isFirstResponder){
             addMemoTextView.resignFirstResponder()
