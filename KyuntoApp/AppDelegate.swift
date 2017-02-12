@@ -130,7 +130,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //saki
     
     
-    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+    func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
         //アプリがactive時に通知を発生させた時にも呼ばれる
         if application.applicationState != .active{
             //バッジを０にする
